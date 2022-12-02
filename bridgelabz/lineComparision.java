@@ -3,9 +3,11 @@ import static java.lang.Math.sqrt;
 
 import java.util.Scanner;
 
+
 public class lineComparision {
 
 	public static void main(String[] args) {
+
         System.out.println("Welcome to line comparison computation program");
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter values for line 2 ");
@@ -26,8 +28,18 @@ public class lineComparision {
         Double dLen2 = new Double(length2);
         if ( dLen1.equals( dLen2)){
             System.out.println("Two lines are equal ");
-        }else {
+
+
+        } else if (dLen1.compareTo(dLen2) >0) {
+
+            System.out.println("line 1 is greater than line 2");
+
+        } else {
+            System.out.println( "line 2 is greater than line 1");
+
+        }{
             System.out.println( "Two lines are not equal");
+
         }
     }
 	}
