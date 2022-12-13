@@ -22,9 +22,9 @@ public class lineComparision {
         double length2 = sqrt(Math.pow((x22-x21),2)+Math.pow((y22-y21),2));
         System.out.println("Length of line 1 is "+length1);
         System.out.println("Length of line 2 is "+length2);
-        Double dLen1 = new Double(length1);
-        Double dLen2 = new Double(length2);
-        if ( dLen1.equals( dLen2)){
+        Double Len1 = new Double(length1);
+        Double Len2 = new Double(length2);
+        if ( Len1.equals( Len2)){
             System.out.println("Two lines are equal ");
         }else {
             System.out.println( "Two lines are not equal");
